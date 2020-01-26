@@ -85,7 +85,6 @@ void PriorityQueue::pop_first(){
 }
 
 void PriorityQueue::print_queue(){
-	//Kolejnosc od ostatniego do pierwszego
 	node *tmp=head;
 	for(int i=count-1;i>=0;i--){
 		if(tmp != nullptr){
